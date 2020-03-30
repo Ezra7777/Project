@@ -1,5 +1,6 @@
 package StepDefinition;
 
+
 import cucumber.api.java.en.Given;
 import pageObjectModel.AbstractClass;
 import pageObjectModel.OrderHistoryPage;
@@ -10,7 +11,7 @@ public class OrderHistorySteps extends AbstractClass {
 
     @Given("^click on your name$")
     public void click_on_your_name() {
-       orderHistoryPage.clickonname();
+        orderHistoryPage.clickonname();
     }
 
     @Given("^click on order history and details$")
@@ -18,7 +19,6 @@ public class OrderHistorySteps extends AbstractClass {
 
         orderHistoryPage.clickorderhistory();
     }
-
 
 
 }

@@ -11,7 +11,7 @@ public class OrderHistoryPage extends  AbstractClass{
     WebDriver driver;
 
 
-    @FindBy(xpath = "//span[text()='sumeyra civelek']")
+    @FindBy(xpath = "//span[text()='zara ozturk']")
     private WebElement name;
 
     public void clickonname(){

@@ -7,9 +7,5 @@ Feature: Order history
     And type your "email" and "password"
     Then Click on the Sign in Button
 
-    Scenario: Order history
-      And click on your name
-      And click on order history and details
-
-
-
+  Scenario: Order history
+    And click on your name
