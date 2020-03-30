@@ -68,7 +68,8 @@ public class OrderPage extends AbstractClass{
     @FindBy(xpath = "//span[text()='I confirm my order']")
     private WebElement confirmButton;
 
-    public void clickOnConfirmButton() {
+    public void clickOnConfirmButton()
+    {
         clickOnFunctionalities(confirmButton);
     }
 }
